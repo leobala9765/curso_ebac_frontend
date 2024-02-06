@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+header li a{
+    color:#f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    /*margin-left: 110px;*/
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+    /* width: 100%;*/
+}
+
+.articles article {
+    width: 30%;
+}
+
+.whatsapp article img {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.whatsapp article a{
+    position: fixed;
+    bottom: 18px;
+    right: 47px;
+}
+
+.whatsapp article a {
+    background-color: rgb(133, 250, 37);
+    color: black;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: rgb(65, 107, 3);
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles .article h3{
+    font-size: 24px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #6aa87f;
+}
+
+#economy {
+    background-color: #f7f5c1;
+}
+
+#economy .articles article a {
+    background-color: #cfcc74;
+}
+
+#tecnology a {
+    background-color: aqua;
+}
+
+#tecnology {
+    background-color: rgb(209, 209, 244);
+}
+
+#gamer a {
+    background-color: rgb(173, 192, 192);
+}
+
+#gamer {
+    background-color: rgb(196, 177, 177);
+}
